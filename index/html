@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PumpFun Token 🦋🐝 - Float Like a Butterfly, Sting Like a Bee">
+    <title>PumpFun Token 🦋🐝</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #ff5e57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+        .hero {
+            background: url('https://placeimg.com/1000/500/tech') no-repeat center center/cover;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #ff5e57;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .tokenomics {
+            background-color: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff5e57;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        🦋🐝 **PumpFun Token**
+    </header>
+
+    <div class="hero">
+        <h1>Float Like a Butterfly, Sting Like a Bee</h1>
+        <p>The fun memecoin that packs a punch! Join the #PumpFun community.</p>
+        <a href="#buy" class="btn">Buy PumpFun Token</a>
+    </div>
+
+    <section id="about">
+        <h2>About PumpFun Token</h2>
+        <p>PumpFun Token ($PFT) is a community-driven memecoin inspired by Muhammad Ali's iconic quote. Just like the famous boxer, we float like a butterfly and sting like a bee!</p>
+    </section>
+
+    <section id="tokenomics">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics">
+            <h3>Initial Supply: 1,000,000,000 $PFT</h3>
+            <ul>
+                <li>50% - Community Distribution</li>
+                <li>20% - Marketing & Partnerships</li>
+                <li>15% - Liquidity Pool</li>
+                <li>10% - Development Fund</li>
+                <li>5% - Reserve Fund</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PumpFun Token 🦋🐝</p>
+        <p><a href="https://etherscan.io/address/YOUR_CONTRACT_ADDRESS" target="_blank">View on Etherscan</a></p>
+    </footer>
+
+</body>
+</html>
